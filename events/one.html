@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>html events</title>
+</head>
+<body style="background-color: rgb(14, 31, 65); color: aliceblue;">
+  <h2>Amazing Images</h2>
+  <div id="image">
+    <li>
+      <img width="400px" id = "img1" src = img1.jpg alt="satoru-gojo">
+    </li>
+    <li>
+      <img width="400px" id = "img2"  src = img2.png alt="solo-leveling">
+    </li>
+    <br>
+    <!-- <button id="btn1" onclick="changeImage()">Change Image</button> -->
+    <l1>
+      <a href="https://www.google.com" id="google" target="_blank">Google</a>
+    </l1>
+
+  </div>
+</body>
+<script>
+  // document.getElementById('img1').onclick = function() {
+  //   alert('You clicked on the first image');
+  // }
+  // document.getElementById('img2').onclick = function() {
+  //   alert('You clicked on the second image');
+  // }
+  document.getElementById('img1').addEventListener('click', function() {
+    console.log('You clicked on the first image');
+  });
+  //attachEvent() method is used to attach an event handler to the specified element.
+  // type,time
+</script>
+</html>
